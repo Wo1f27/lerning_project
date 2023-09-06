@@ -6,4 +6,4 @@ def addTwoNumbers(l1, l2):
     res = res[::-1]
     return res
 
-print(addTwoNumbers([1, 2, 4], [3, 2, 1]))
+print(addTwoNumbers([1, 2, 4], [3, 2, 3]))
