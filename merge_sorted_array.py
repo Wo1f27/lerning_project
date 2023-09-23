@@ -12,4 +12,4 @@ def merge(nums1, nums2, m, n) -> None:
 
 
 
-print(merge([2, 3, 4, 0, git a0, 0, 0, 0, 0, 0, 0], [2, 5, 6], 3, 3))
+print(merge([2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0], [2, 5, 6], 3, 3))
