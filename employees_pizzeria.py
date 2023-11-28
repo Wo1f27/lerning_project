@@ -20,11 +20,11 @@ class Chef(Employee):
         print(self.name, 'cooking foods')
 
 if __name__ == '__main__':
-    bob = Employee('bob', 50000)
+    bob = Employee('bob', 60000)
     print(bob)
     bob.raise_salary(0.5)
     print(bob)
-    sara = Chef('Sara', 50000)
+    sara = Chef('Sara', 60000)
     print(sara)
     sara.work()
 
