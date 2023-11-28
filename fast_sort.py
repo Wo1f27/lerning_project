@@ -12,8 +12,9 @@ def solve(l1, l2):
             res.append(l2[n2])
             n2 += 1
     l1.pop(), l2.pop()
-    return res
+    return sorted(res)
 
 
 if __name__ == '__main__':
     print(solve([-2, 0, 3, 6], [-1, 0, 5, 5, 8]))
+    print(solve([5, 2, -1, 0, 0], [0, 0, 0, -10, 10, -20, 20]))
