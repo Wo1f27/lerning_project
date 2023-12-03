@@ -7,4 +7,7 @@ def climbStairs(n: int) -> int:
         res.append((res[i - 1]) + (res[i - 2]))
     return res[-1]
 
-print(climbStairs(6))
+
+
+if __name__ == '__main__':
+    print(climbStairs(6))
