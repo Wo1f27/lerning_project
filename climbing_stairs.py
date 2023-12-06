@@ -12,3 +12,4 @@ def climbStairs(n: int) -> int:
 if __name__ == '__main__':
     print(climbStairs(6))
     print(climbStairs(12))
+    print(climbStairs(-12))
