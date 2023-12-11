@@ -7,5 +7,7 @@ def qsort(arr):
     return qsort(less) + [first] + qsort(greater)
 
 
-a = [6, 3, 9, 1, 5, 5, 6, 2, 7, 1]
-print(qsort(a))
+
+if __name__ == '__main__':
+    a = [6, 3, 9, 1, 5, 5, 6, 2, 7, 1]
+    print(qsort(a))
