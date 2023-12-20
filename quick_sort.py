@@ -11,4 +11,4 @@ def qsort(arr):
 if __name__ == '__main__':
     a = [6, 3, 9, 2, 5, 9, 6, 1, 7, 2]
     print(qsort(a))
-    print(qsort(a + [0, 4, 6]))
+    print(qsort(a + [0, 4, 6, 10]))
